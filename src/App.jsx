@@ -1,10 +1,13 @@
 import Navbar from "./components/Navbar.jsx"
+import './App.css'
 
 function App() {
 
   return (
     <>
-    <Navbar></Navbar>
+    <div className="dark-graph min-h-screen w-full">
+      <Navbar></Navbar>
+    </div>
     </>
   )
 }
