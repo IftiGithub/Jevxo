@@ -1,39 +1,49 @@
 import growth from "../assets/growth.png";
+import group_1 from "../assets/Group_1.png";
+import group_2 from "../assets/Group_2.png";
 
 const Growth = () => {
     return (
         <section className="relative w-full py-24 px-4 flex flex-col items-center justify-center overflow-hidden">
             
+            {/* Background Decorative: Group_2 at the Left Bottom of the section */}
+            <img 
+                src={group_2} 
+                alt="" 
+                className="absolute left-0 bottom-0 w-1/4 max-w-[300px] opacity-40 pointer-events-none z-0"
+            />
+
             {/* Main Flex Container */}
             <div className="max-w-7xl w-full flex flex-col items-center text-center space-y-4 z-10">
 
                 {/* 1. Title Section */}
-                <div className="mb-2">
-                    <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-[linear-gradient(98.62deg,#2E7BFF_2.7%,#6CC5B7_89.07%,#2E7BFF_89.07%)]">
+                <div className="relative mb-2 w-full flex justify-center items-center">
+                    <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-[linear-gradient(98.62deg,#2E7BFF_2.7%,#6CC5B7_89.07%,#2E7BFF_89.07%)] z-10">
                         The Jevxo Growth Engine
                     </h2>
+                    
+                    {/* Background Decorative: Group_1 at the right side of the title */}
+                    <img 
+                        src={group_1} 
+                        alt="" 
+                        className="absolute -right-10 md:right-0 top-1/2 -translate-y-1/2 w-20 md:w-40 lg:w-52 opacity-50 pointer-events-none z-0"
+                    />
                 </div>
 
                 {/* 2. Subtext */}
-                <p className="text-gray-400 text-sm md:text-lg uppercase tracking-[0.3em] font-medium max-w-3xl">
+                <p className="relative text-gray-400 text-sm md:text-lg uppercase tracking-[0.3em] font-medium max-w-3xl z-10">
                     A Unified Ecosystem where Strategy, Design, and technology work as one.
                 </p>
 
                 {/* 3. Enlarged Central Image & Orbital Pattern */}
                 <div className="relative w-full max-w-6xl mt-20 flex justify-center items-center min-h-[600px] lg:min-h-[800px]">
                     
-                    {/* --- ENLARGED CIRCULAR DASHED PATTERN --- */}
-                    
-                    {/* Inner Dashed Circle - Increased Size */}
+                    {/* --- CIRCULAR DASHED PATTERN --- */}
                     <div className="absolute w-[350px] h-[350px] md:w-[500px] md:h-[500px] border border-dashed border-blue-500/30 rounded-full animate-[spin_60s_linear_infinite]"></div>
-                    
-                    {/* Middle Dashed Circle - Increased Size */}
                     <div className="absolute w-[450px] h-[450px] md:w-[650px] md:h-[650px] border border-dashed border-blue-400/20 rounded-full animate-[spin_100s_linear_infinite_reverse]"></div>
-                    
-                    {/* Large Outer Decorative Circle */}
                     <div className="absolute w-[550px] h-[550px] md:w-[850px] md:h-[850px] border border-dashed border-blue-300/10 rounded-full"></div>
                     
-                    {/* Radiating Spokes - Extended Length */}
+                    {/* Radiating Spokes */}
                     {[...Array(8)].map((_, i) => (
                         <div 
                             key={i}
@@ -45,7 +55,7 @@ const Growth = () => {
                     {/* Enhanced Radial Glow */}
                     <div className="absolute w-[400px] h-[400px] md:w-[700px] md:h-[700px] bg-blue-600/15 rounded-full blur-[150px] -z-10"></div>
                     
-                    {/* --- THE CORE IMAGE (Enlarged) --- */}
+                    {/* --- THE CORE IMAGE --- */}
                     <img
                         src={growth}
                         alt="Jevxo Growth Engine"
