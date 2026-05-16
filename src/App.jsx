@@ -4,6 +4,7 @@ import Hero from "./components/Hero.jsx"
 import Growth from "./components/Growth.jsx"
 import Roi from "./components/Roi.jsx"
 import Everything from "./components/Everything.jsx"
+import Flexible from "./components/Flexible.jsx"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Growth></Growth>
       <Roi></Roi>
       <Everything></Everything>
+      <Flexible></Flexible>
     </div>
     </>
   )
