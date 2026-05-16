@@ -8,6 +8,7 @@ import Flexible from "./components/Flexible.jsx"
 import Pricing from "./components/Pricing.jsx"
 import Outreach from "./components/Outreach.jsx"
 import Footer from "./components/Footer.jsx"
+import Transform from "./components/Transform.jsx"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Hero></Hero>
       <Growth></Growth>
       <Roi></Roi>
+      <Transform></Transform>
       <Everything></Everything>
       <Flexible></Flexible>
       <Pricing></Pricing>
