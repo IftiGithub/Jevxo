@@ -9,6 +9,7 @@ import Pricing from "./components/Pricing.jsx"
 import Outreach from "./components/Outreach.jsx"
 import Footer from "./components/Footer.jsx"
 import Transform from "./components/Transform.jsx"
+import OurShowcase from "./components/Ourshowcase.jsx"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Hero></Hero>
       <Growth></Growth>
       <Roi></Roi>
+      <OurShowcase></OurShowcase>
       <Transform></Transform>
       <Everything></Everything>
       <Flexible></Flexible>

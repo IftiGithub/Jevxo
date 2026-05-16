@@ -37,7 +37,7 @@ const Transform = () => {
                     <button className="px-10 py-4 bg-[#E9B66F] text-[#0B0F17] font-bold rounded-xl hover:bg-[#d4a35f] transition-all shadow-lg shadow-[#E9B66F]/10">
                         Start free Trial
                     </button>
-                    <button className="px-10 py-4 bg-[#2E7BFF]/10 text-white border border-[#2E7BFF]/30 font-bold rounded-xl hover:bg-[#2E7BFF]/20 transition-all backdrop-blur-sm">
+                    <button className="px-10 py-4 bg-[linear-gradient(263.57deg,_rgba(220,228,255,0.4)_10.17%,_rgba(151,176,255,0.4)_60.22%,_rgba(220,228,255,0.4)_103.12%)] text-white border border-[#2E7BFF]/30 font-bold rounded-xl hover:opacity-80 transition-all backdrop-blur-sm">
                         Watch video
                     </button>
                 </div>
