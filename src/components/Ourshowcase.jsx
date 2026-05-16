@@ -40,7 +40,7 @@ const OurShowcase = () => {
                 {/* Section Header */}
                 <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
                     <div>
-                        <h2 className="text-5xl md:text-6xl font-bold text-[#2E7BFF] mb-4">Our Showcase</h2>
+                        <h2 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-[linear-gradient(98.62deg,#2E7BFF_2.7%,#6CC5B7_89.07%,#2E7BFF_89.07%)] mb-4">Our Showcase</h2>
                         <p className="text-gray-400 text-lg">A glimpse into the empires we've built. Scroll to explore our portfolio.</p>
                     </div>
                     <button className="flex items-center gap-2 text-[#2E7BFF] font-bold hover:underline group">
